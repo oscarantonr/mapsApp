@@ -32,11 +32,6 @@ export class MarkersPageComponent {
   @ViewChild('map')
   divMap?: ElementRef<HTMLElement>;
 
-  
-  // ngOnInit(): void {
-  //   config.apiKey = 'ULh3xSHJfIeeiGRvt4h8';
-  // }
-
   ngAfterViewInit() {   
     if(!this.divMap){
       throw 'El elmemento divMap no esta definido';
